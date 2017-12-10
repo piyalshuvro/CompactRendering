@@ -141,7 +141,7 @@ h4 {
 	text-align: center;
 	color: #fff;
 	background: url(/img/intro-bg-nonfade.jpg) no-repeat center top;
-	background-color: #908FC2;
+	background-color: #040b1c;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -162,13 +162,13 @@ h4 {
     padding: 30px;
     padding-bottom: 60px;
     margin-top:0;
-    border: 2px solid rgba(0,0,0,.5);
     max-width: 600px;
     text-align: center;
     color: #121d1f;
 	display: inline-block;
     max-width: 100%;
     word-break: break-all;
+	z-index:3;
 }
 
 .jumbo-logo {
@@ -437,6 +437,7 @@ a:hover {
   position: relative;
   overflow:hidden;
   margin: auto;
+  z-index: 100;
 }
 
 .mySlides {
